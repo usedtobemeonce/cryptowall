@@ -1,4 +1,3 @@
-import React from 'react';
 import styled from 'styled-components';
 import { subtleBoxShadow, lightBlueBackground, greenBoxShadow, redBoxShadow } from './Styles';
 
@@ -8,7 +7,7 @@ export const Tile = styled.div`
     padding: 10px;
 `;
 
-export const SelectedTile = styled(Tile)`
+export const SelectableTile = styled(Tile)`
     &:hover {
         cursor: pointer;
         ${greenBoxShadow}
