@@ -23,7 +23,6 @@ export default function ({ coinKey, topSection }) {
                 if (topSection) {
                     TileClass = DeletableTile;
                 } else if (isInFavorites(coinKey)) {
-                    console.log('here');
                     TileClass = DisabledTile;
                 }
 
