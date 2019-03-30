@@ -1,4 +1,4 @@
-export default function ({ historical }) {
+export default function (historical) {
   return {
     title: {
       text: ''
